@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link href="/doc/ccpa" />
+        <Link href="/doc/ccpa"> THIS IS THE TEST LINK </Link>
       </main>
 
       <footer className={styles.footer}>
