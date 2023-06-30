@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image alt="" src="/images/logo.svg" />
         <Link href="/docs/app"> THIS IS THE TEST LINK </Link>
-        <a className={styles.footer}> </a>
+        <div className={styles.footer}> Im the footer with styles </div>
       </main>
     </div>
   );
