@@ -1,7 +1,6 @@
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import 'globals.css'
 
 export default function Home() {
   return (
@@ -9,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image alt="" src="/images/logo.svg" />
         <Link href="/docs/app"> THIS IS THE TEST LINK </Link>
-        <a className="footer"> </a>
+        <a className={styles.footer}> </a>
       </main>
     </div>
   );
